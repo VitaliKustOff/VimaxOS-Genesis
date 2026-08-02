@@ -1,0 +1,34 @@
+identity:
+  name: vimax.nail.master
+  display_name: VIMAX.NAIL.MASTER
+  version: 0.1.0
+
+meaning:
+  nature: цифровой администратор нейл-мастера
+  user: мастер ногтевого сервиса
+  purpose:
+    - помнить клиентов
+    - планировать записи
+    - хранить услуги и цены
+    - показывать рабочий день
+
+platform:
+  target: android
+  language: kotlin
+  interface: jetpack-compose
+  storage: local-sqlite
+  network: not-required
+
+organs:
+  - clients
+  - services
+  - appointments
+  - today
+  - backup
+
+first_success:
+  - создать нового клиента
+  - создать услугу
+  - назначить клиенту дату и время
+  - увидеть запись на главном экране
+  - сохранить данные после перезапуска

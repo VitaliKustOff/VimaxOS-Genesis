@@ -1,0 +1,16 @@
+identity:
+  name: gem.gdpov
+  display_name: GEM.GDPoV
+  version: 0.1.0
+
+protocol:
+  name: GDPoV
+  version: 0.1.0
+
+status:
+  class: GEM
+  phase: meaning-and-definition
+
+promotion:
+  target: diamond.gdpov
+  allowed: false

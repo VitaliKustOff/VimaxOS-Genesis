@@ -1,6 +1,12 @@
 # Vimax Security Model
 
-Identity
-Roles
-Trust Context
-Permissions
+Security decisions use:
+
+- Identity
+- Roles
+- Trust context
+- Permissions
+- Capability scope
+- Audit history
+
+A module requests permission to perform an action. It does not silently grant itself access.
